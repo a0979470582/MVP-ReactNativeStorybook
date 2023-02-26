@@ -35,7 +35,7 @@ git push --set-upstream origin main
 ```
 adb reverse tcp:8081 tcp:8081
 npm start
-在 Android Studio 上運行專案 
+run Project in Android Studio
 ```
 
 ## Install React Native Storybook
