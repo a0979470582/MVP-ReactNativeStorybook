@@ -42,7 +42,7 @@ run Project in Android Studio
 ```
 
 ## Install React Native Storybook
-Next step is refer to [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md).
+Next step is refer to [ReactNativeStorybook manual setup](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md).
 <br>接下來的流程是參考自 [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md)。
 
 <br>Install required dependecies. 
