@@ -140,6 +140,6 @@ yarn sb-rn-get-stories
 <br>Re-run Android Studio
 
 <br>Check Storybook on the phone
-<image src="https://user-images.githubusercontent.com/45554149/221398084-943c29d8-91dc-44a7-9808-86ea1ec39cb2.jpg" width="200px"/>
+<br><image src="https://user-images.githubusercontent.com/45554149/221398084-943c29d8-91dc-44a7-9808-86ea1ec39cb2.jpg" width="200px"/>
 
 
