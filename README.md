@@ -1,21 +1,24 @@
 # MVP-ReactNativeStorybook
-React Native Storybook 的最小可行性測試(MVP)。
+React Native Storybook Minimum Viable Product(MVP, 最小可行產品) Testing。
 
 ## Create React Native Project
+First, you need a React Native Project. If you have, please skip the step.
 首先需要一個 React Native 專案。如果已經有現有專案，可以略過此步驟。
 
+Step at Below are records that create RN project. May different by RN version, Recommended refer to [Official Document](https://reactnative.dev/docs/environment-setup) to create self.
 以下步驟是建立此 React Native 專案的紀錄。隨版本迭代可能有所不同，建議參考 [官方文件](https://reactnative.dev/docs/environment-setup) 來自行建立。
 
-<br>在 Github 建立一個 Repo，名稱為 MVP_ReactNativeStorybook。
 
-<br>在本地命令列中輸入以下指令來建立專案
+<br>Create a repo in Github. in my case, the repo name is MVP_ReactNativeStorybook。
+
+<br>Create RN project in command line. 在本地命令列中輸入以下指令來建立專案
 ```
 cd ~
 npx react-native init MVP_ReactNativeStorybook
 cd MVP_ReactNativeStorybook
 ```
 
-<br>初始化 git 並連結到 Githup Repo。
+<br>Init git and link to Github Repo. 初始化 git 並連結到 Github Repo。
 ```
 git init
 git add .
@@ -25,7 +28,7 @@ git remote add origin git@github.com:a0979470582/MVP_ReactNativeStorybook.git
 git push --set-upstream origin main
 ```
 
-<br>在本地運行專案(Android 手機)
+<br>Run Project(Android Phone) in local. 在本地運行專案(Android 手機)。
 ```
 adb reverse tcp:8081 tcp:8081
 npm start
@@ -33,15 +36,16 @@ npm start
 ```
 
 ## Install React Native Storybook
+Next step is refer to [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md).
 接下來的流程是參考自 [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md)。
 
-<br>安裝所需依賴項
+<br>Install required dependecies. 安裝所需依賴項。
 
 ```
 yarn add -D @storybook/react-native@next @storybook/core-common @react-native-async-storage/async-storage react-native-safe-area-context react-dom
 ```
 
-<br>建立 .storybook 資料夾及一些範例檔案
+<br>create .storybook folder and some config files. 建立 .storybook 資料夾及一些配置檔案
 ```
 mkdir .storybook && cd .storybook && touch main.js preview.js Storybook.tsx
 ```
@@ -71,7 +75,7 @@ import './storybook.requires';
 export const StorybookUIRoot = getStorybookUI({});
 ```
 
-<br>修改 metro.config.js
+<br>Revise metro.config.js
 ```
 module.exports = {
   /* existing config */
@@ -81,7 +85,7 @@ module.exports = {
 };
 ```
 
-<br>修改 package.json
+<br>Revise package.json
 ```
 {
   "scripts": {
@@ -106,7 +110,9 @@ export default {
 export const Basic = args => <Button {...args} />;
 ```
 
-<br>到目前為止準備工作就算完成了，接下來將建立一個範例 story 並運行看看。
+<br>到目前為止準備工作就算完成了，接下來將運行看看。
+<br>So far the pre-work is complete, and then we will run storybook on the phone.
+
 
 ## Run Storybook
 <br>Use <StorybookUIRoot /> element In App.tsx
