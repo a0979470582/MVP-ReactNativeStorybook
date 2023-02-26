@@ -35,11 +35,12 @@ npm start
 ## Install React Native Storybook
 接下來的流程是參考自 [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md)
 
-<br>
+<br>安裝所需依賴項
 
 ```
-adb reverse tcp:8081 tcp:8081
-npm start
-在 Android Studio 上運行專案 
+yarn add -D @storybook/react-native@next @storybook/core-common @react-native-async-storage/async-storage react-native-safe-area-context react-dom
 ```
+
+<br>建立 .storybook 資料夾並建立一些預設檔案
+
 
