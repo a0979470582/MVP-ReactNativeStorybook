@@ -39,7 +39,7 @@ run Project in Android Studio
 ```
 
 ## Install React Native Storybook
-<br>Next step is refer to [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md).
+Next step is refer to [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md).
 <br>接下來的流程是參考自 [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md)。
 
 <br>Install required dependecies. 
@@ -120,7 +120,7 @@ export const Basic = args => <Button {...args} />;
 
 
 ## Run Storybook
-<br>Use <StorybookUIRoot /> element In App.tsx
+Use <StorybookUIRoot /> element In App.tsx
 ```
 import {StorybookUIRoot} from './.storybook/Storybook';
 
@@ -134,7 +134,7 @@ function App(): JSX.Element {
 yarn sb-rn-get-stories
 ```
 
-<br>re-run Android Studio
+<br>e-run Android Studio
 
 <br>Check Storybook on the phone
 
