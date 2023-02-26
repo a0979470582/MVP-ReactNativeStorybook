@@ -2,23 +2,25 @@
 React Native Storybook Minimum Viable Product(MVP, 最小可行產品) Testing。
 
 ## Create React Native Project
-First, you need a React Native Project. If you have, please skip the step.
-首先需要一個 React Native 專案。如果已經有現有專案，可以略過此步驟。
+<br>First, you need a React Native Project. If you have, please skip the step.
+<br>首先需要一個 React Native 專案。如果已經有現有專案，可以略過此步驟。
 
-Step at Below are records that create RN project. May different by RN version, Recommended refer to [Official Document](https://reactnative.dev/docs/environment-setup) to create self.
-以下步驟是建立此 React Native 專案的紀錄。隨版本迭代可能有所不同，建議參考 [官方文件](https://reactnative.dev/docs/environment-setup) 來自行建立。
+<br>Step at Below are records that create RN project. May different by RN version, Recommended refer to [Official Document](https://reactnative.dev/docs/environment-setup) to create self.
+<br>以下步驟是建立此 React Native 專案的紀錄。隨版本迭代可能有所不同，建議參考 [官方文件](https://reactnative.dev/docs/environment-setup) 來自行建立。
 
 
 <br>Create a repo in Github. in my case, the repo name is MVP_ReactNativeStorybook。
 
-<br>Create RN project in command line. 在本地命令列中輸入以下指令來建立專案
+<br>Create RN project in command line. 
+<br>在本地命令列中輸入以下指令來建立專案
 ```
 cd ~
 npx react-native init MVP_ReactNativeStorybook
 cd MVP_ReactNativeStorybook
 ```
 
-<br>Init git and link to Github Repo. 初始化 git 並連結到 Github Repo。
+<br>Init git and link to Github Repo. 
+<br>初始化 git 並連結到 Github Repo。
 ```
 git init
 git add .
@@ -28,7 +30,8 @@ git remote add origin git@github.com:a0979470582/MVP_ReactNativeStorybook.git
 git push --set-upstream origin main
 ```
 
-<br>Run Project(Android Phone) in local. 在本地運行專案(Android 手機)。
+<br>Run Project(Android Phone) in local. 
+<br>在本地運行專案(Android 手機)。
 ```
 adb reverse tcp:8081 tcp:8081
 npm start
@@ -36,16 +39,18 @@ npm start
 ```
 
 ## Install React Native Storybook
-Next step is refer to [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md).
-接下來的流程是參考自 [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md)。
+<br>Next step is refer to [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md).
+<br>接下來的流程是參考自 [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md)。
 
-<br>Install required dependecies. 安裝所需依賴項。
+<br>Install required dependecies. 
+<br>安裝所需依賴項。
 
 ```
 yarn add -D @storybook/react-native@next @storybook/core-common @react-native-async-storage/async-storage react-native-safe-area-context react-dom
 ```
 
-<br>create .storybook folder and some config files. 建立 .storybook 資料夾及一些配置檔案
+<br>create .storybook folder and some config files. 
+<br>建立 .storybook 資料夾及一些配置檔案
 ```
 mkdir .storybook && cd .storybook && touch main.js preview.js Storybook.tsx
 ```
