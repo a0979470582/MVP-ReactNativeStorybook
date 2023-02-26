@@ -11,7 +11,7 @@ React Native Storybook 的最小可行性測試(MVP)。
 <br>在本地命令列中輸入以下指令來建立專案
 ```
 cd ~
-react-native init MVP_ReactNativeStorybook
+npx react-native init MVP_ReactNativeStorybook
 cd MVP_ReactNativeStorybook
 ```
 
@@ -23,10 +23,12 @@ git commit -m 'init project'
 git branch -M main // 移動和重命名分支(-M 比起 -m 會在分支不存在時強制移動)
 git remote add origin git@github.com:a0979470582/MVP_ReactNativeStorybook.git
 git push --set-upstream origin main
+```
 
-// 如果 repo 已經有一些 commit，可能會無法從 local push 到 repo。請執行：
-git fetch
-git rebase origin/main
-git push
+<br>在本地運行專案(Android 手機)
+```
+adb reverse tcp:8081 tcp:8081
+npm start
+在 Android Studio 上運行專案 
 ```
 
