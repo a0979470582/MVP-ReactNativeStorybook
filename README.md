@@ -30,7 +30,7 @@ git remote add origin git@github.com:a0979470582/MVP_ReactNativeStorybook.git
 git push --set-upstream origin main
 ```
 
-<br>Run Project(Android Phone) in local. 
+<br>Run Project in local(Android Phone). 
 <br>在本地運行專案(Android 手機)。
 ```
 adb reverse tcp:8081 tcp:8081
