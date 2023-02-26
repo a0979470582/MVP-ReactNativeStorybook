@@ -32,3 +32,14 @@ npm start
 在 Android Studio 上運行專案 
 ```
 
+## Install React Native Storybook
+接下來的流程是參考自 [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md)
+
+<br>
+
+```
+adb reverse tcp:8081 tcp:8081
+npm start
+在 Android Studio 上運行專案 
+```
+
