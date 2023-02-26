@@ -2,7 +2,7 @@
 React Native Storybook Minimum Viable Product(MVP, 最小可行產品) Testing。
 
 ## Create React Native Project
-<br>First, you need a React Native Project. If you have, please skip the step.
+First, you need a React Native Project. If you have, please skip the step.
 <br>首先需要一個 React Native 專案。如果已經有現有專案，可以略過此步驟。
 
 <br>Step at Below are records that create RN project. May different by RN version, Recommended refer to [Official Document](https://reactnative.dev/docs/environment-setup) to create self.
