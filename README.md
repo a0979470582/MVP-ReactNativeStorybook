@@ -68,9 +68,7 @@ import { getStorybookUI } from '@storybook/react-native';
 
 import './storybook.requires';
 
-const StorybookUIRoot = getStorybookUI({});
-
-export default StorybookUIRoot;
+export const StorybookUIRoot = getStorybookUI({});
 ```
 
 <br>修改 metro.config.js
@@ -93,7 +91,37 @@ module.exports = {
 }
 ```
 
-<br> 到目前為止準備工作就算完成了，接下來將建立一個範例 story 並運行看看。
+<br>Create a Story at /MVP_ReactNativeStorybook/components/Button/Button.stories.tsx
+```
+import {Button} from 'react-native';
+
+export default {
+  title: 'React Native Button',
+  component: Button,
+  args: {
+    title: 'Hello world',
+  },
+};
+
+export const Basic = args => <Button {...args} />;
+```
+
+<br>到目前為止準備工作就算完成了，接下來將建立一個範例 story 並運行看看。
 
 ## Run Storybook
+<br>Use <StorybookUIRoot /> element In App.tsx
+```
+function App(): JSX.Element {
+  return <StorybookUIRoot />;
+}
+```
+
+<br>Execute command to update Sotrybook
+yarn sb-rn-get-stories
+
+<br>re-run Android Studio
+
+<br>Check Storybook on the phone
+<image src="https://user-images.githubusercontent.com/45554149/221398084-943c29d8-91dc-44a7-9808-86ea1ec39cb2.jpg" width="200px"/>
+
 
