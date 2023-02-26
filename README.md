@@ -111,13 +111,17 @@ export const Basic = args => <Button {...args} />;
 ## Run Storybook
 <br>Use <StorybookUIRoot /> element In App.tsx
 ```
+import {StorybookUIRoot} from './.storybook/Storybook';
+
 function App(): JSX.Element {
   return <StorybookUIRoot />;
 }
 ```
 
 <br>Execute command to update Sotrybook
+```
 yarn sb-rn-get-stories
+```
 
 <br>re-run Android Studio
 
