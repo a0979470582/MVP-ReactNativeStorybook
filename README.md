@@ -33,7 +33,7 @@ npm start
 ```
 
 ## Install React Native Storybook
-接下來的流程是參考自 [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md)
+接下來的流程是參考自 [ReactNativeStorybook 手動安裝文件](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md)。
 
 <br>安裝所需依賴項
 
@@ -41,6 +41,59 @@ npm start
 yarn add -D @storybook/react-native@next @storybook/core-common @react-native-async-storage/async-storage react-native-safe-area-context react-dom
 ```
 
-<br>建立 .storybook 資料夾並建立一些預設檔案
+<br>建立 .storybook 資料夾及一些範例檔案
+```
+mkdir .storybook && cd .storybook && touch main.js preview.js Storybook.tsx
+```
 
+<br>main.js
+```
+module.exports = {
+  stories: [
+    '../components/**/*.stories.?(ts|tsx|js|jsx)'
+  ],
+  addons: [],
+};
+```
+
+<br>preview.js
+```
+export const decorators = [];
+export const parameters = {};
+```
+
+<br>Storybook.tsx
+```
+import { getStorybookUI } from '@storybook/react-native';
+
+import './storybook.requires';
+
+const StorybookUIRoot = getStorybookUI({});
+
+export default StorybookUIRoot;
+```
+
+<br>修改 metro.config.js
+```
+module.exports = {
+  /* existing config */
+  resolver: {
+    resolverMainFields: ['sbmodern', 'react-native', 'browser', 'main'],
+  },
+};
+```
+
+<br>修改 package.json
+```
+{
+  "scripts": {
+    "prestart": "sb-rn-get-stories",
+    "storybook-watcher": "sb-rn-watcher",
+  }
+}
+```
+
+<br> 到目前為止準備工作就算完成了，接下來將建立一個範例 story 並運行看看。
+
+## Run Storybook
 
