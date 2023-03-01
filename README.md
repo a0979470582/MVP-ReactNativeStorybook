@@ -1,5 +1,8 @@
 # MVP-ReactNativeStorybook
 React Native Storybook Minimum Viable Product(MVP, 最小可行產品) Testing。
+
+This repository records my integrating react-native-storybook process.
+
 <br>[Create React Native Project](#Create-React-Native-Project)
 <br>[Install React Native Storybook](#Install-React-Native-Storybook)
 <br>[Run Storybook](#Run-Storybook)
