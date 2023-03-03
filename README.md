@@ -40,5 +40,5 @@ yarn sb-rn-get-stories
 <br><image src="https://user-images.githubusercontent.com/45554149/221398084-943c29d8-91dc-44a7-9808-86ea1ec39cb2.jpg" width="200px"/>
 
 ## Optimize Storybook
- 
+To be continued
 
