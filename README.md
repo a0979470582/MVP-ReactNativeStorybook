@@ -42,7 +42,7 @@ yarn sb-rn-get-stories
 
 ## Issue
 1. How can I do when I see the error 'Error loading story index'?
-Need reset cache.
+<br>Need reset cache.
 ```
 yarn start -- --reset-cache
 ```
