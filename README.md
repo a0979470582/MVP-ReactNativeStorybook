@@ -6,6 +6,7 @@ This repository records my integrating react-native-storybook process.
 <br>[Create React Native Project](#Create-React-Native-Project)
 <br>[Install React Native Storybook](#Install-React-Native-Storybook)
 <br>[Run Storybook](#Run-Storybook)
+<br>[Optimize Storybook](#Optimize-Storybook)
 
 ## Create React Native Project
 First, you need a React Native Project. If you have, please skip the step.
@@ -38,4 +39,6 @@ yarn sb-rn-get-stories
 <br>Check Storybook on the phone
 <br><image src="https://user-images.githubusercontent.com/45554149/221398084-943c29d8-91dc-44a7-9808-86ea1ec39cb2.jpg" width="200px"/>
 
+## Optimize Storybook
+ 
 
