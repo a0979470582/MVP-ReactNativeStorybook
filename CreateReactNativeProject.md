@@ -37,14 +37,9 @@ npm start
 (press keyboard a) or (run Project in Android Studio)
 ```
 
-## Run on iOS physical device
+## Run on iOS 
 ```
 npm start
 (press keyboard i) or (run Project in XCode)
 ```
 
-## Run on iOS emulator device
-```
-npm start
-(press keyboard i) or (run Project in XCode)
-```
