@@ -3,11 +3,11 @@ React Native Storybook Minimum Viable Product(MVP, 最小可行產品) Testing�
 
 This repository records my integrating react-native-storybook process.
 
-<br>[Create React Native Project](#Create-React-Native-Project)
-<br>[Install React Native Storybook](#Install-React-Native-Storybook)
-<br>[Run Storybook](#Run-Storybook)
-<br>[Issue](#Issue)
-<br>[Optimize Storybook](#Optimize-Storybook)
+1. [Create React Native Project](#Create-React-Native-Project)
+2. [Install React Native Storybook](#Install-React-Native-Storybook)
+3. [Run Storybook](#Run-Storybook)
+4. [Issue](#Issue)
+5. [Optimize Storybook](#Optimize-Storybook)
 
 ## Create React Native Project
 First, you need a React Native Project. If you have, please skip the step.
