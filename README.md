@@ -10,7 +10,7 @@ This repository records my integrating react-native-storybook process.
 ## Create React Native Project
 First, you need a React Native Project. If you have, please skip the step.
 <br>首先需要一個 React Native 專案。如果已經有現有專案，可以略過此步驟。
-[CreateReactNativeProject.md](https://github.com/a0979470582/MVP_ReactNativeStorybook/blob/main/CreateReactNativeProject.md)
+<br><br>[CreateReactNativeProject.md](https://github.com/a0979470582/MVP_ReactNativeStorybook/blob/main/CreateReactNativeProject.md)
 
 ## Install React Native Storybook
 Next step is refer to [ReactNativeStorybook manual setup](https://github.com/storybookjs/react-native/blob/next-6.0/MANUAL_SETUP.md).
