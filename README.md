@@ -6,6 +6,7 @@ This repository records my integrating react-native-storybook process.
 <br>[Create React Native Project](#Create-React-Native-Project)
 <br>[Install React Native Storybook](#Install-React-Native-Storybook)
 <br>[Run Storybook](#Run-Storybook)
+<br>[Issue](#Issue)
 <br>[Optimize Storybook](#Optimize-Storybook)
 
 ## Create React Native Project
@@ -38,6 +39,13 @@ yarn sb-rn-get-stories
 
 <br>Check Storybook on the phone
 <br><image src="https://user-images.githubusercontent.com/45554149/221398084-943c29d8-91dc-44a7-9808-86ea1ec39cb2.jpg" width="200px"/>
+
+## Issue
+1. How can I do when I see the error 'Error loading story index'?
+Need reset cache.
+```
+yarn start -- --reset-cache
+```
 
 ## Optimize Storybook
 To be continued
