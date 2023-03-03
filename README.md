@@ -48,5 +48,5 @@ yarn start -- --reset-cache
 ```
 
 ## Optimize Storybook
-<br><br>[OptimizeStorybook.md](https://github.com/a0979470582/MVP_ReactNativeStorybook/blob/main/OptimizeStorybook.md)
+[OptimizeStorybook.md](https://github.com/a0979470582/MVP_ReactNativeStorybook/blob/main/OptimizeStorybook.md)
 
